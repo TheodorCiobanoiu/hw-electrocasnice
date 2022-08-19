@@ -24,3 +24,8 @@ public class Appliance {
     Integer stock;
     boolean deleted;
 }
+
+/*
+    {\"name\":\"Aragaz\", \"applianceType\":\"ELB\", \"stock\":\"10\"}
+
+ */

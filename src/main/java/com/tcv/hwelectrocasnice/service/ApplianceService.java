@@ -52,7 +52,7 @@ public class ApplianceService {
         }
     }
 
-    //    This is a 2 in 1 method. It adds a new appliance, or it updates the stock for a new appliance.
+//        This is a 2 in 1 method. It adds a new appliance, or it updates the stock for a new appliance.
 //    The difference is only in the path used and the Json body given.
     public Appliance addStock(Integer id) {
         Optional<Appliance> applianceOptional = applianceRepository.findById(id);
